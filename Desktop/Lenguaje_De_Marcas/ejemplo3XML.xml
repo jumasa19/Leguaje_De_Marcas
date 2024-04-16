@@ -1,58 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<equipos>
-    <jugadores> 
-        <equipo>
-            <nombre>
-            FC.Barcelona
-            </nombre>
-            <ciudad>
-            Barcelona
-            </ciudad>
-            <entrenador>
-            </entrenador>
-        </equipo>
-        <jugador posicion="centrocampista">
-            <nombre>
-            Gavi
-            </nombre>
-            <nacionalidad>
-            Español
-            </nacionalidad>
-        </jugador>
-        <jugador posicion="portero">
-            <nombre>
-            Ter Stegen
-            </nombre>
-            <nacionalidad>
-            Aleman
-            </nacionalidad>
-        </jugador>
-        <equipo>
-            <nombre>
-            Real Madrid
-            </nombre>
-            <ciudad>
-            Madrid
-            </ciudad>
-            <entrenador>
-            </entrenador>
-        </equipo>
-        <jugador posicion="delantero">
-            <nombre>
-            Vinicius Jr
-            </nombre>
-            <nacionalidad>
-            Brasileño
-            </nacionalidad>
-        </jugador>
-        <jugador posicion="centrocampista">
-            <nombre>
-            Alaba
-            </nombre>
-            <nacionalidad>
-            Austriaco
-            </nacionalidad>
-        </jugador>
-    </jugadores>    
+<equipos>     
+    <equipo>
+        <nombre>
+        FC.Barcelona
+        </nombre>
+        <ciudad>
+        Barcelona
+        </ciudad>
+        <entrenador>
+        </entrenador>       
+    </equipo>
+        <jugadores> 
+            <jugador posicion="centrocampista">
+                <nombre>
+                Gavi
+                </nombre>
+                <nacionalidad>
+                Español
+                </nacionalidad>
+            </jugador>
+            <jugador posicion="portero">
+                <nombre>
+                Ter Stegen
+                </nombre>
+                <nacionalidad>
+                Aleman
+                </nacionalidad>
+            </jugador>
+        </jugadores>     
+    <equipo>
+        <nombre>
+        Real Madrid
+        </nombre>
+        <ciudad>
+        Madrid
+        </ciudad>
+        <entrenador>
+        </entrenador>
+    </equipo>
+        <jugadores> 
+            <jugador posicion="delantero">
+                <nombre>
+                Vinicius Jr
+                </nombre>
+                <nacionalidad>
+                Brasileño
+                </nacionalidad>
+            </jugador>
+            <jugador posicion="centrocampista">
+                <nombre>
+                Alaba
+                </nombre>
+                <nacionalidad>
+                Austriaco
+                </nacionalidad>
+            </jugador>
+       </jugadores> 
 </equipos>
