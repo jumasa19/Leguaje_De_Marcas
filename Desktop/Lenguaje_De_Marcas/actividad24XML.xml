@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos SYSTEM "actividad24.dtd">
+
+<articulos>
+    <articulo>
+        <nombre>
+            lapiz
+        </nombre>
+        <precio>
+            1€
+        </precio>
+        <codigo>
+            LPZ
+        </codigo>
+        <fabricante>
+            Carioca  
+        </fabricante>
+    </articulo>  
+
+    <articulo>
+        <nombre>
+            movil
+        </nombre>
+        <precio>
+            500€
+        </precio>
+        <codigo>
+            MVL
+        </codigo>
+        <fabricante>
+            Xiaomi  
+        </fabricante>
+    </articulo>   
+    
+    <articulo>
+        <nombre>
+            Vandal sentinels of light
+        </nombre>
+        <precio>
+            25€
+        </precio>
+        <codigo>
+            VNL
+        </codigo>
+        <fabricante>
+            Riot Games  
+        </fabricante>
+    </articulo>  
+</articulos>
