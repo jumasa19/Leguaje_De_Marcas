@@ -1,0 +1,11 @@
+<!ELEMENT familia ((padre | madre)*, (padre | madre)*, hijos+)>
+<!ELEMENT padre (nombre, apellido1, apellido2, dni?)>
+<!ELEMENT madre (nombre, apellido1, apellido2, dni?)>
+<!ELEMENT hijos (hijo*, hija*)>
+<!ELEMENT hijo (nombre, apellido1, apellido2, edad?)>
+<!ELEMENT hija (nombre, apellido1, apellido2, dni?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>

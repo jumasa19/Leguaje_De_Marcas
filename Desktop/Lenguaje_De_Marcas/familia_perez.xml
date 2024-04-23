@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE familia SYSTEM "familia.dtd">
+<familia>
+    <padre>
+        <nombre>Antonio</nombre>
+        <apellido1>Pérez</apellido1>
+        <apellido2>Rodríguez</apellido2>
+        <dni>12345678A</dni>
+    </padre>
+    <madre>
+        <nombre>Elena</nombre>
+        <apellido1>Roldán</apellido1>
+        <apellido2>Benítez</apellido2>
+        <dni>90123456B</dni>
+    </madre>
+    <hijos>
+        <hijo>
+            <nombre>Alejandro</nombre>
+            <apellido1>Pérez</apellido1>
+            <apellido2>Roldán</apellido2>
+            <edad>12</edad>
+        </hijo>
+        <hijo>
+            <nombre>Manuel</nombre>
+            <apellido1>Pérez</apellido1>
+            <apellido2>Roldán</apellido2>
+            <edad>6</edad>
+        </hijo>
+        <hija>
+            <nombre>Elena</nombre>
+            <apellido1>Pérez</apellido1>
+            <apellido2>Roldán</apellido2>
+            <dni>78901234C</dni>
+        </hija>
+    </hijos>
+</familia>
