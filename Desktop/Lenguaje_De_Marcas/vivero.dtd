@@ -1,0 +1,10 @@
+<!ELEMENT vivero (especie+)>
+<!ELEMENT especie (nombre, precio, variedad, origen, color_fruto+, otros_datos)>
+<!ELEMENT otros_datos (maduracion, riego)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT variedad (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT color_fruto (#PCDATA)>
+<!ELEMENT maduracion (#PCDATA)>
+<!ELEMENT riego (#PCDATA)>
