@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<xs:simpleType name="numeroType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-1][0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="letraType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[XYZ]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="codigoType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-1][0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="fichas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ficha" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="codigoType"/>
+              <xs:element name="nombre" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="numero" type="numeroType" use="required"/>
+            <xs:attribute name="letra" type="letraType" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema> 
